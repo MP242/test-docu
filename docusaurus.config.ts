@@ -99,6 +99,14 @@ const config: Config = {
           position: "left",
           // queryString: "?persistLocale=true",
         },
+        {
+          label: "Version",
+          position: "left",
+          items: [
+            { label: "Latest", to: "docs/intro" }, // Version actuelle
+            { label: "1.0.0", to: "docs/1.0.0/intro" }, // Ancienne version
+          ],
+        },
       ],
     },
     footer: {
